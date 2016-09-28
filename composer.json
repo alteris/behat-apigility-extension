@@ -3,7 +3,15 @@
   "description": "Extension connect Behat scenario with Apigility application",
   "type": "lib",
   "license": "MIT",
-  "minimum-stability": "beta",
+  "minimum-stability": "stable",
+  "keywords": [
+    "behat",
+    "extension",
+    "zend",
+    "framework",
+    "apigility",
+    "bdd"
+  ],
   "authors": [
     {
       "name": "Tomasz Kunicki",

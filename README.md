@@ -20,7 +20,7 @@ or composer.json
 
 ## Configuration
 
-You can then activate the extension in your ``behat.yml``. Need to use parameter ``type`` to change Application factory to Apigility and defaine both Extensions:
+You can then activate the extension in your ``behat.yml``. Need to use parameter ``type`` to change Application factory to Apigility and define both Extensions:
 
         default:
             # ...
