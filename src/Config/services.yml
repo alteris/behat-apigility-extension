@@ -1,0 +1,6 @@
+services:
+  apigility_extension.zend.application.factory:
+    class: Alteris\BehatApigilityExtension\Zend\Apigility\ApplicationFactory
+    arguments: ["%zendframework_extension.configuration%"]
+    tags:
+      -  { name: zendframework_extension.factory_tag }

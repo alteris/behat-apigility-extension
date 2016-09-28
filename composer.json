@@ -1,0 +1,28 @@
+{
+  "name": "alteris/behat-apigility-extension",
+  "description": "Extension connect Behat scenario with Apigility application",
+  "type": "lib",
+  "license": "MIT",
+  "minimum-stability": "beta",
+  "authors": [
+    {
+      "name": "Tomasz Kunicki",
+      "role": "Developer",
+      "homepage": "https://github.com/timiTao"
+    }
+  ],
+  "require": {
+    "behat/behat": "^3.1",
+    "alteris/behat-zendframework-extension": "0.1"
+  },
+  "require-dev": {
+    "symfony/process": "~2.1|~3.0",
+    "phpunit/phpunit": "~4.5",
+    "zfcampus/zf-apigility": "1.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alteris\\BehatApigilityExtension\\": "src/"
+    }
+  }
+}
